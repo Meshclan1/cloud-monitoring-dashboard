@@ -109,6 +109,8 @@ Full technical details:
 - Create better-looking dashboards
 - Set up automatic responses to common problems
 - Learn Infrastructure as Code (CloudFormation)
+- Create a cloud template for chosen IDE (VSCode). (Helps make building projects from scratch much quicker!)
+- In README.md section, number each section for easier reference
 
 **Would be cool to add:**
 
