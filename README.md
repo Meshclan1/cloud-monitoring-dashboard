@@ -1,4 +1,4 @@
-# 📝 Cloud Monitoring Dashboard - Small Businesses
+# 📝 Cloud Monitoring Dashboard
 
 **A simple AWS monitoring solution for small businesses using CloudWatch and email alerts.**
 
