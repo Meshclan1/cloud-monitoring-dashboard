@@ -31,13 +31,7 @@
 
 - Used basic CloudWatch dashboards (free)
 - Didn't use third-party dashboard tools
-
-### 💡 General Tips
-
-1. **Start minimal**: Add monitoring gradually, don't monitor everything day 1
-2. **Use free tier**: Maximize what's included before paying
-3. **Regular reviews**: Check costs weekly, not just when bill arrives
-4. **Clean up unused**: Delete alarms/dashboards you don't use
+- Delete alarms/dashboards not in use
 
 ## 🧐 Scaling Cost Projections
 
