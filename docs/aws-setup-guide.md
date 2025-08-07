@@ -16,7 +16,7 @@
 
 **Cost warning:** This setup uses mostly free services, but check your billing dashboard after setup.
 
-# Section 2: Step-by-Step Setup 📕
+# Section 2: Step-by-Step Service Setup 📕
 
 ## Step 1: Set Up Email (SES)
 
