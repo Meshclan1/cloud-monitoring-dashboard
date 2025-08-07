@@ -1,5 +1,7 @@
 # 💰 Project Cost Breakdown
 
+https://calculator.aws/#/ - Cost Calculating Tool
+
 **Monthly cost estimate table:**
 
 | Service    | Usage                       | Cost/Month | Justification                     |
