@@ -75,3 +75,5 @@
 - **CloudWatch custom metrics**: Each one costs £0.50/month
 - **High-frequency alarms**: Checking every minute vs every 5 minutes
 - **Detailed monitoring**: Costs extra for EC2 instances
+
+---

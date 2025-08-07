@@ -131,3 +131,5 @@ Full technical details:
 - Start with this README
 - Follow the setup guide in `/docs`
 - Look at screenshots to see what it should look like
+
+---
