@@ -92,6 +92,7 @@ Full technical details:
 - Configuring SES for email delivery
 - Basic IAM permissions for security
 - Understanding AWS free tier limits
+- Documenting cloud project from start to beginning via Github
 
 **General Lessons:**
 
@@ -99,30 +100,30 @@ Full technical details:
 - Start simple and add features gradually
 - Test everything before calling it "done"
 - Documentation is important (learned this the hard way!)
-- Cost monitoring should be built in from the start
+- Cost monitoring should be built in from the start using AWS pricing calculator
 
 ## 🚀 Future Improvements
 
 **Next steps:**
 
 - Add more types of alerts (disk space, network issues)
-- Create better-looking dashboards
+- Create better-looking dashboards connected to a python module or using javascript libraries
 - Set up automatic responses to common problems
-- Learn Infrastructure as Code (CloudFormation)
+- Learn Infrastructure as Code for quicker deployments(CloudFormation)
 - Create a cloud template for chosen IDE (VSCode). (Helps make building projects from scratch much quicker!)
 - In README.md section, number each section for easier reference
 
 **Would be cool to add:**
 
-- Slack notifications instead of just email
-- Automatic server restart for some problems
-- Integration with business metrics (sales, orders)
+- Notifications via different portals - ie if using teams, one gets a notification
+- Automatic server restart for some problems to reduce manual involvement
+- Integration with inmportant business metrics (sales, orders)
 
 **Learning goals:**
 
-- Get better at Infrastructure as Code
+- Get better at designing and implementing Infrastructure as Code
 - Learn more about AWS security
-- Understand how to scale this for bigger businesses
+- Understand how to scale this project for bigger businesses
 
 ## 📁 Overall Project Structure
 
