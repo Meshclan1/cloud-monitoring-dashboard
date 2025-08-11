@@ -8,6 +8,7 @@
 - Email address for receiving alerts
 - 30-60 minutes of time
 - Basic AWS console knowledge (can navigate and click buttons)
+- AWS Pricing Calculator (webaccess for cost estimates)
 
 **Permissions needed:**
 
