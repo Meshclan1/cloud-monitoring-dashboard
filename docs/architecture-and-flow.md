@@ -76,18 +76,27 @@ diagram here
 
 ### Normal Operation (Everything OK)
 
-1.
-2.
+1. Your EC2 server runs normally
+2. CloudWatch collects metrics every 5 minutes
+3. You can check the dashboard anytime
+4. No alerts sent
 
 ### When There's a Problem
 
-1.
-2.
+1. Server CPU goes above 80% for 5 minutes
+2. CloudWatch alarm triggers
+3. Alarm sends message to SNS topic
+4. SNS forwards message to SES
+5. SES sends email to you
+6. You get notified within 2 minutes
 
 ### What Data Gets Collected
 
--
--
+- **CPU Usage**: How busy your server is
+- **Memory Usage**: How much RAM is being used
+- **Disk Space**: How full your hard drive is
+- **Network**: Data going in and out
+- **Cost**: How much you're spending on AWS
 
 ### Flow Chart for each Component Layer
 
