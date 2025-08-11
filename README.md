@@ -94,18 +94,27 @@ Full technical details:
 - Understanding AWS free tier limits
 - Documenting cloud project from start to beginning via Github
 
+**Cost Management Lessons:**
+
+- Always check if your free tier has expired before starting
+- Use AWS Pricing Calculator to estimate costs by region
+- Different AWS regions have different pricing (learned London can be more expensive)
+- Set up billing alerts BEFORE you start building, not after
+
 **General Lessons:**
 
-- Project setup time via GitHub can be improved upon
 - Start simple and add features gradually
-- Test everything before calling it "done"
-- Documentation is important (learned this the hard way!)
-- Cost monitoring should be built in from the start using AWS pricing calculator
+- Test everything before marking it as completed
+- Documentation is important!
+- Regional selection affects both cost and latency
+- Cost monitoring should be built in from day one
 
 ## 🚀 Future Improvements
 
-**Next steps:**
+**What I'd do differently next time:**
 
+- Check free tier status and regional pricing before any AWS work
+- Set up cost alerts on day one
 - Add more types of alerts (disk space, network issues)
 - Create better-looking dashboards connected to a python module or using javascript libraries
 - Set up automatic responses to common problems

@@ -1,6 +1,6 @@
 # 💰 Project Cost Breakdown
 
-https://calculator.aws/#/ - Cost Calculating Tool
+_Prior to commencing projects, I use the AWS Pricing Calculator! It isa great way to estimate costs before building anything - https://calculator.aws/#/_
 
 **Monthly cost estimate table:**
 
