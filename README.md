@@ -126,7 +126,7 @@ Full technical details:
 
 - Notifications via different portals - ie if using teams, one gets a notification
 - Automatic server restart for some problems to reduce manual involvement
-- Integration with inmportant business metrics (sales, orders)
+- Integration with important business metrics (sales, orders)
 
 **Learning goals:**
 
