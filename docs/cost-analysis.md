@@ -6,12 +6,13 @@ _Prior to commencing projects, I use the AWS Pricing Calculator! It isa great wa
 
 Cost Estimates per month for EU-WEST-2 (London)
 
-| Service          | Usage                                                | Cost/Month | Justification                                  |
-| ---------------- | ---------------------------------------------------- | ---------- | ---------------------------------------------- |
-| CloudWatch Basic | CPU, Network, Disk metrics, First 10 alarms are free | £2.50      | Essential visibility                           |
-| SES              | 50 emails/month                                      | £0.00      | Alert notifications                            |
-| SNS              | 50 notifications                                     | £0.00      | Message routing                                |
-| **Total**        |                                                      | **£0.00**  | Optimal for small business with limited budget |
+| Service           | Usage                      | Cost/Month | Justification                       |
+| ----------------- | -------------------------- | ---------- | ----------------------------------- |
+| CloudWatch Basic  | CPU, Network, Disk metrics | £0         | Free basic EC2 metrics              |
+| CloudWatch Alarms | 3-5 alarms                 | £0         | First 10 alarms are free            |
+| SES               | 50 emails/month            | £0         | Under 62,000 free limit             |
+| SNS               | 50 notifications           | £0         | Under 1 million free limit          |
+| **Total**         |                            | **£0**     | Perfect for learning/small business |
 
 ## 💵 Cost Optimisation Strategies
 
@@ -49,7 +50,7 @@ Perfect for testing and small websites
 Basic monitoring: £0/month (still within free limits)
 IF you add custom metrics (disk usage): £1-3/month
 IF you need >10 alarms: £2-5/month additional
-Total: £0-8/month - Still very affordable
+Total: £0-8/month
 
 ### 10+ Servers (Established Business)
 
