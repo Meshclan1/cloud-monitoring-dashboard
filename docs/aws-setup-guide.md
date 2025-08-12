@@ -46,7 +46,7 @@ Creating a small server that we'll monitor with our dashboard.
 
 - Instance appears as **running** in EC2 console
 
-![EC2 instance successfully running in the AWS Management Console.](screenshots/01_ec2_running.png)  
+![EC2 instance successfully running in the AWS Management Console.](/screenshots/01_ec2_running.png)  
 _EC2 instance successfully running in the AWS Management Console._
 
 ---
@@ -73,6 +73,9 @@ Verifying your EC2 instance’s default performance metrics (CPU, network, disk)
 - Metrics graphs show data points after a few minutes
 - No extra setup is required to collect these basic metrics
 
+![Viewing basic EC2 performance metrics in CloudWatch.](/screenshots/02_cloudwatch_ec2_metrics.png)  
+_Viewing basic EC2 performance metrics in CloudWatch._
+
 ---
 
 ## 3️⃣ Create CloudWatch Alarms
@@ -95,6 +98,9 @@ Setting up automatic alerts when certain metrics exceed safe thresholds.
 
 - Alarm status shows as **OK**
 - You receive a notification when you intentionally stress the server
+
+![Creating a CPU utilization alarm in CloudWatch to trigger notifications.](/screenshots/03_cloudwatch_alarm.png)  
+_Creating a CPU utilization alarm in CloudWatch to trigger notifications._
 
 ---
 
@@ -122,6 +128,9 @@ Creating a channel for CloudWatch to send alerts.
 - Subscription shows as **Confirmed** in SNS console
 - You receive an email when an alarm triggers
 
+![Setting up an SNS topic for CloudWatch alarms to send alerts via email.](/screenshots/04_sns_topic.png)  
+_Setting up an SNS topic for CloudWatch alarms to send alerts via email._
+
 ---
 
 ## 5️⃣ Configure SES for Email Alerts
@@ -146,6 +155,9 @@ Setting up AWS to send you alert emails.
 
 Your email shows green checkmark and says "Verified"
 
+![Verifying your email address in AWS SES for sending alerts.](/screenshots/05_ses_email_verified.png)  
+_Verifying your email address in AWS SES for sending alerts._
+
 ---
 
 ## 6️⃣ Create a CloudWatch Dashboard
@@ -169,6 +181,12 @@ Creating a page where you can see all your server metrics.
 ### ✅ How You Know It Worked
 
 - Dashboard shows live graphs for all selected metrics. If charts are empty, wait 5-10 minutes for data to populate.
+
+![Starting a new CloudWatch dashboard to display monitoring widgets.](/screenshots/06_cloudwatch_dashboard_create.png)  
+_Starting a new CloudWatch dashboard to display monitoring widgets._
+
+![Final monitoring dashboard showing CPU, network, and disk activity graphs.](/screenshots/07_dashboard_widgets.png)  
+_Final monitoring dashboard showing CPU, network, and disk activity graphs._
 
 ---
 
