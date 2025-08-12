@@ -46,6 +46,9 @@ Creating a small server that we'll monitor with our dashboard.
 
 - Instance appears as **running** in EC2 console
 
+![EC2 instance successfully running in the AWS Management Console.](screenshots/0§_ec2_running.png)  
+_EC2 instance successfully running in the AWS Management Console._
+
 ---
 
 ## 2️⃣ Check EC2 Metrics in CloudWatch (No setup needed)
