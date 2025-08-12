@@ -58,11 +58,11 @@ This project is designed to be affordable for learning and small business use.
 
 - Add memory and application-level metrics
 - Including an alarm description for formatting purposes
-- Configuring automatic actions to problems to reduce manual intervention (e.g. Lambda, Auto-Scaling, EC2 action)
-- Create better-looking dashboards connected to a python module or using javascript libraries
+- See how I can connect and showcase the dashboard via the web using a python module or using javascript libraries/frameworks
+- Configure automatic actions to problems to reduce manual intervention (e.g. Lambda, Auto-Scaling, EC2 action)
 - Create a cloud template for chosen IDE (VSCode). (Helps make building projects from scratch quicker!)
-- Employing Infrastructure as Code via CloudFormation for quicker deployments
-- Running tests at each step to ensure things are working properly
+- Employ IaC via CloudFormation for quicker deployments
+- Run tests at each step to ensure things are working properly
 
 ---
 
