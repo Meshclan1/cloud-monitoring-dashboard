@@ -36,16 +36,15 @@ Creating a small server that we'll monitor with our dashboard.
 ### 🛠️ Steps
 
 1. Go to AWS Console → Search "EC2" → Click EC2
-2. Click "Launch instance"
+2. Click "Launch instance" and provide a name for your server
 3. Choose "Amazon Linux 2 AMI" (free tier eligible)
-4. Choose "t2.micro" instance type
+4. Choose "t2.micro" or "t3.micro" instance type which are free-tier eligible
 5. Keep default settings → Click "Launch instance"
 6. Wait 2-3 minutes for instance to start running
 
 ### ✅ How You Know It Worked
 
 - Instance appears as **running** in EC2 console
-- You can connect via SSH
 
 ---
 

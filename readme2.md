@@ -60,7 +60,7 @@ This project is designed to be affordable for learning and small business use.
 - Create better-looking dashboards connected to a python module or using javascript libraries
 - Create a cloud template for chosen IDE (VSCode). (Helps make building projects from scratch quicker!)
 - Employing Infrastructure as Code via CloudFormation for quicker deployments
-- Automatic server restart for some problems to reduce manual involvement
+- Configuring automatic actions to problems to reduce manual intervention (e.g. Lambda, Auto-Scaling, EC2 action)
 
 ---
 
