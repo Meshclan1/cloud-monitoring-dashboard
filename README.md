@@ -104,6 +104,7 @@ Full technical details:
 **General Lessons:**
 
 - Start simple and add features gradually
+- Taking screenshots at verification points (moments that prove each step worked correctly!)
 - Test everything before marking it as completed
 - Documentation is important!
 - Regional selection affects both cost and latency
