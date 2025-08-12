@@ -63,4 +63,5 @@ Small businesses often lack affordable monitoring solutions. This project uses A
 
 ## 🖼️ Example Diagram
 
-![Architecture Diagram Placeholder](images/architecture-placeholder.png)
+![Architecture Diagram](/docs/images/cloud-monitor-architecture.png)  
+_Diagram showing EC2 → CloudWatch → SNS/SES alerting flow._

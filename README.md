@@ -22,7 +22,7 @@ A lightweight AWS-based monitoring solution for small businesses, providing real
 
 ## 🏗️ Architecture Overview
 
-![Architecture Diagram Placeholder](docs/images/architecture-placeholder.png)  
+![Architecture Diagram](docs/images/cloud-monitor-architecture.png)  
 _Diagram showing EC2 → CloudWatch → SNS/SES alerting flow._
 
 [📄 View full architecture details](docs/architecture-and-flow.md)
@@ -52,9 +52,6 @@ This project is designed to be affordable for learning and small business use.
 - ✉️ **Email notifications:** Receive alerts directly in your inbox
 - 🆓 **Free tier friendly:** Keep monthly costs near £0 for small workloads
 
-![Final monitoring dashboard showing CPU, network, and disk activity graphs.](/screenshots/07_dashboard_widgets.png)  
-_Final monitoring dashboard showing CPU, network, and disk activity graphs._
-
 ---
 
 ## 🔮 Future Improvements
@@ -72,7 +69,7 @@ _Final monitoring dashboard showing CPU, network, and disk activity graphs._
 ## 🧠 Lessons Learned
 
 - Cost planning is as important as technical setup
-- Using draw.io to showcase architectural flow
+- Using draw.io to showcase architectural
 - Simplicity keeps maintenance low
 - Documentation is important!
 - Taking screenshots at verification points (moments that prove each step worked correctly!)
