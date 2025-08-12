@@ -3,7 +3,7 @@
 ```
 Small businesses using AWS don't know when their servers are having problems. They find out when customers can't access their website or when they get a huge AWS bill. This costs them money and customers.
 
-This monitoring solution gives them a simple way to watch their servers and get alerts before problems become expensive.
+This project shows how to add monitoring and alerts to existing AWS infrastructure at zero additional cost, or set up a complete monitored server solution for £7-12/month.
 ```
 
 ## Solution Overview

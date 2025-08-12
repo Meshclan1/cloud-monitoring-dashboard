@@ -1,6 +1,6 @@
 # 📝 Cloud Monitoring Dashboard
 
-**A simple AWS monitoring solution for small businesses using CloudWatch and email alerts.**
+**A complete AWS monitoring solution for small businesses - includes server setup and monitoring using CloudWatch and email alerts.**
 
 ## 🎯 Business Problem
 
@@ -10,6 +10,7 @@ Small businesses using AWS often don't know when their servers have problems unt
 
 ## 💡 Solution Overview
 
+This project shows how to add monitoring to existing AWS infrastructure at zero additional cost, or set up a complete monitored server solution for £7-12/month.
 I am building a monitoring dashboard using AWS CloudWatch that:
 
 - Shows server performance in real-time
@@ -28,6 +29,7 @@ Perfect for small businesses with 1-5 servers who want basic monitoring without 
 
 ## 🛠️ Tech Stack
 
+- **Amazon EC2** - To use as our virtual server
 - **Amazon CloudWatch** - For collecting metrics and creating dashboards
 - **Amazon SES** - For sending email alerts (cheap and reliable)
 - **Amazon SNS** - For routing notifications

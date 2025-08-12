@@ -1,87 +1,59 @@
-# 💰 Project Cost Breakdown
+# 💵 Cost Analysis
 
-_Prior to commencing projects, I use the AWS Pricing Calculator! It isa great way to estimate costs before building anything - https://calculator.aws/#/_
-
-**Monthly cost estimate table:**
-
-Cost Estimates per month for EU-WEST-2 (London)
-
-| Service           | Usage                      | Cost/Month | Justification                       |
-| ----------------- | -------------------------- | ---------- | ----------------------------------- |
-| CloudWatch Basic  | CPU, Network, Disk metrics | £0         | Free basic EC2 metrics              |
-| CloudWatch Alarms | 3-5 alarms                 | £0         | First 10 alarms are free            |
-| SES               | 50 emails/month            | £0         | Under 62,000 free limit             |
-| SNS               | 50 notifications           | £0         | Under 1 million free limit          |
-| **Total**         |                            | **£0**     | Perfect for learning/small business |
-
-## 💵 Cost Optimisation Strategies
-
-**Used Free Tier Services**
-
-- Basic CloudWatch metrics (CPU, memory, network) are free
-- First 10 CloudWatch alarms are free
-- SES gives 62,000 emails/month free if sent from EC2
-
-**Limited Custom Metrics**
-
-- Only monitor essential things: CPU, memory, disk, cost
-- Not adding business metrics (would cost £0.50 each per month)
-
-**Smart Alert Settings**
-
-- Set alerts to trigger only for real problems
-- This reduces SNS message costs
-
-**Simple Dashboard**
-
-- Used basic CloudWatch dashboards (free)
-- Didn't use third-party dashboard tools
-- Delete alarms/dashboards not in use
-
-## 🧐 Scaling Cost Projections
-
-### 1 Server (Starting Out)
-
-Basic monitoring: £0/month (always-free tiers)
-Perfect for testing and small websites
-
-### 3-5 Servers (Growing Business)
-
-Basic monitoring: £0/month (still within free limits)
-IF you add custom metrics (disk usage): £1-3/month
-IF you need >10 alarms: £2-5/month additional
-Total: £0-8/month
-
-### 10+ Servers (Established Business)
-
-Basic monitoring: £0/month (free tier per server)
-Custom metrics become expensive: £5-15/month per server
-Many alarms needed: £10-20/month
-Total: £50-170/month for comprehensive monitoring
-
-### 20+ Servers (Enterprise Scale)
-
-AWS CloudWatch becomes expensive: £200+/month
-Recommendation: Switch to open-source solutions
-Or use enterprise monitoring tools that become cost-effective at scale
-
-### When to Switch Solutions
-
-- **Stay with this setup**: Under 10 servers, basic monitoring needs
-- **Consider alternatives**: 20+ servers, need advanced features
-
-## 🔍 Cost Monitoring
-
-### What I Set Up
-
-- **Budget Alert**: Email when monthly spend hits £10
-- **Weekly Cost Review**: Check billing dashboard every Friday
-- **Cost Dashboard Widget**: Added billing metrics to main dashboard
-
-### Red Flags to Watch For
-
-- **CloudWatch custom metrics**: Each one costs £0.50/month
-- **High-frequency alarms**: Checking every minute (high-resolution) vs every 5 minutes (standard)
-- **Detailed monitoring**: Costs extra for EC2 instances
+This project is designed to stay within AWS Free Tier limits for small deployments.
 
 ---
+
+## 📊 Service Costs
+
+| Service              | Usage                      | Cost/Month | Justification                 |
+| -------------------- | -------------------------- | ---------- | ----------------------------- |
+| EC2 Instance         | t2.micro or t3.micro       | £7–12      | Server to monitor (main cost) |
+| CloudWatch Basic     | CPU, network, disk metrics | £0         | Free basic EC2 metrics        |
+| CloudWatch Alarms    | 3–5 alarms                 | £0         | First 10 alarms are free      |
+| SES                  | 50 emails/month            | £0         | Under 62,000 free limit       |
+| SNS                  | 50 notifications           | £0         | Under 1 million free limit    |
+| **Total (1 server)** |                            | **£7–12**  | Realistic small business cost |
+
+---
+
+## 📈 Scaling Cost Projections
+
+### Server Costs (Compute Only) 💻
+
+| Number of Servers | EC2 Cost/Month (Estimate) | Notes                |
+| ----------------- | ------------------------- | -------------------- |
+| 1                 | £7–12                     | t2.micro or t3.micro |
+| 3                 | £21–36                    | 3 × instances        |
+| 5                 | £35–60                    |                      |
+| 10                | £70–120                   |                      |
+| 20                | £140–240                  |                      |
+
+---
+
+### Monitoring Costs 🔍
+
+| Number of Servers | Monitoring Cost Estimate | Notes                                        |
+| ----------------- | ------------------------ | -------------------------------------------- |
+| 1–5               | £0–8                     | Mostly free tier, some custom metrics        |
+| 10                | £50–170                  | Custom metrics & many alarms                 |
+| 20+               | £200+                    | High CloudWatch usage, consider alternatives |
+
+---
+
+### Total Monthly Cost Estimate (Server + Monitoring) 💰
+
+| Number of Servers | Total Cost Estimate | Notes                              |
+| ----------------- | ------------------- | ---------------------------------- |
+| 1                 | £7–20               | Single server + basic monitoring   |
+| 5                 | £35–68              | 5 servers + light monitoring       |
+| 10                | £120–290            | 10 servers + advanced monitoring   |
+| 20                | £340+               | Larger infrastructure + monitoring |
+
+---
+
+### Notes:
+
+- Each EC2 instance adds roughly £7–12/month regardless of monitoring.
+- Monitoring costs start small but can grow significantly with custom metrics and alarms.
+- For 20+ servers, consider cost-efficient or open-source monitoring tools.
