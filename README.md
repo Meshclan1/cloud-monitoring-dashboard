@@ -1,4 +1,4 @@
-# 📊 Business Ops Monitoring Dashboard
+# 📊 Cloud Monitoring Dashboard
 
 ```
 A lightweight AWS-based monitoring solution for small businesses, providing real-time visibility of server health, alerts for issues, and simple dashboards — all while staying within (or close to) AWS Free Tier limits.
